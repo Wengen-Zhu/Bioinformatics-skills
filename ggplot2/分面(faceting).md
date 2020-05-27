@@ -12,7 +12,6 @@ colnames(MSU_160_GO)      # 绘图主要使用"Rank"，"Description" ，"Count" 
 
 MSU_160_GO 数据结构,如下图 
   
-![](Bioinfrmatics-skills/picture/MSU_160_GO.png)    
 ![](../picture/MSU_160_GO.png)      
 
 ## 分面！绘图  
@@ -23,9 +22,8 @@ ggplot(data = MSU_160_GO, mapping = aes(reorder(Description,Count),Count, fill=R
          #换个角度显示，angle是控制刻度标签显示的角度 + 
         theme(axis.text.x = element_text(angle=30, hjust=1, vjust=1))
 ```
-
-![](./picture/GO_160_BP_CC_MF.pdf)    
-
+ 
+![](../picture/GO_160_BP_CC_MF.pdf)      
 
 
 
