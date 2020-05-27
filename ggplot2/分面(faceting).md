@@ -10,12 +10,11 @@ colnames(MSU_160_GO)      # 绘图主要使用"Rank"，"Description" ，"Count" 
 [11] "percent_of_genes"
 ```
 
-MSU_160_GO 数据结构,如下图
-![](./picture/MSU_160_GO.jpg)  
+MSU_160_GO 数据结构,如下图  
+![](./picture/MSU_160_GO.png)    
 
 
-
-## 分面！绘图
+## 分面！绘图  
 ```
 ggplot(data = MSU_160_GO, mapping = aes(reorder(Description,Count),Count, fill=Rank)) +
         geom_bar(aes(fill=Rank),stat= 'identity', width = 0.5) +
@@ -24,7 +23,7 @@ ggplot(data = MSU_160_GO, mapping = aes(reorder(Description,Count),Count, fill=R
         theme(axis.text.x = element_text(angle=30, hjust=1, vjust=1))
 ```
 
-
+![](./picture/GO_160_BP_CC_MF.pdf)    
 
 
 
