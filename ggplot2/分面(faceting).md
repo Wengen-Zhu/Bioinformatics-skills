@@ -22,8 +22,9 @@ ggplot(data = MSU_160_GO, mapping = aes(reorder(Description,Count),Count, fill=R
          #换个角度显示，angle是控制刻度标签显示的角度 + 
         theme(axis.text.x = element_text(angle=30, hjust=1, vjust=1))
 ```
- 
-![](../picture/GO_160_BP_CC_MF.pdf)      
+
+# 结果如下
+![](../picture/GO_160_BP_CC_MF.png)      
 
 
 
