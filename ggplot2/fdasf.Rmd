@@ -1,0 +1,36 @@
+---
+title: "ggplot2_分面(faceting)总结"
+author: "zhuwengen"
+date: "2020年5月27日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+ggplot2的分面有两种方式，分别使用 facet_wrap 或 facet_grid 函数。
+主要参考: ggplot2作图详解4：分面(faceting) <https://www.plob.org/article/7653.html>.
+
+
+```{r}
+
+
+```
+
+
+When you click the **Knit** button a document will be generated that includes both content as well as the 
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
