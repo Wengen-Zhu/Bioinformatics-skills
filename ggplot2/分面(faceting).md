@@ -13,7 +13,7 @@ colnames(MSU_160_GO)      # 绘图主要使用"Rank"，"Description" ，"Count" 
 MSU_160_GO 数据结构,如下图 
   
 ![](Bioinfrmatics-skills/picture/MSU_160_GO.png)    
-
+![](../picture/MSU_160_GO.png)      
 
 ## 分面！绘图  
 ```
