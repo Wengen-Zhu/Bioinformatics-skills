@@ -10,8 +10,9 @@ colnames(MSU_160_GO)      # 绘图主要使用"Rank"，"Description" ，"Count" 
 [11] "percent_of_genes"
 ```
 
-MSU_160_GO 数据结构,如下图  
-![](./picture/MSU_160_GO.png)    
+MSU_160_GO 数据结构,如下图 
+  
+![](Bioinfrmatics-skills/picture/MSU_160_GO.png)    
 
 
 ## 分面！绘图  
